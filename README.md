@@ -10,10 +10,11 @@ Todays sector boundaries are very blurry indeed. Who is the main competitor of T
 
 One of the most convincing source is maybe yahoo finance's "People who watch this stock also watch this other..". Their powerful algorithm's (clusterisation) work for us and we scrap.
 
+
 <h4> Websites targeted: </h4>
 
 * CNN Business
-* Stocktwits
+* Stocktwits: to monitor nb of watchers for a set of selected stocks
 * Yahoo finance
 
 
