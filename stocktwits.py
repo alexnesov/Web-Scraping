@@ -37,7 +37,6 @@ def find_n_watchers():
 
 if __name__ == "__main__":
     find_n_watchers()
-    # We choose "orient" as an argument otherwise we get a ValueError telling us that "array must be same length"
     DFWatchers = pd.DataFrame.from_dict(dict_stocks)
 
 
