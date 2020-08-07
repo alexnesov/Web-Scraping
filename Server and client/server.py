@@ -19,5 +19,8 @@ def set_server_connection(test):
     s.close()
 
 
+if __name__ == "__main__":
+    set_server_connection(test)
+
 
 # http://code.activestate.com/recipes/578802-send-messages-between-computers/
