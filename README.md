@@ -14,7 +14,7 @@ One of the most convincing source is maybe yahoo finance's "People who watch thi
 <h4> Websites targeted: </h4>
 
 * CNN Business
-* Stocktwits
-* Yahoo finance: to monitor nb of watchers for a set of selected stocks
+* Stocktwits: to monitor nb of watchers for a set of selected stocks
+* Yahoo finance
 
 
