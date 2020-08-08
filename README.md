@@ -4,7 +4,7 @@ As the web scrapping takes some time, I also decided to integrate some code to s
 
 <h5> *Update </h5>
 
-Initially, this project started wanted to identify more "frontal" competitors - so to speak - than those we could find in the usual sectors and sub-sectors catageroizations.
+As stated above, the aim was to indeed identify more "direct" competitors - so to speak - than those we could find in the usual sectors and sub-sectors catageroizations.
 CNN Business'competitors seemed interesting, eventhough I don't know the criteria on which they based who is a competitor or not.
 Todays sector boundaries are very blurry indeed. Who is the main competitor of Tesla? General Motors? Nvidia (they  partnered with Mercedes), or maybe even Apple?
 
