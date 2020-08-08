@@ -8,13 +8,14 @@ As stated above, the aim was to indeed identify more "direct" competitors - so t
 CNN Business'competitors seemed interesting, eventhough I don't know the criteria on which they based who is a competitor or not.
 Todays sector boundaries are very blurry indeed. Who is the main competitor of Tesla? General Motors? Nvidia (they  partnered with Mercedes), or maybe even Apple?
 
-One of the most convincing source is maybe yahoo finance's "People who watch this stock also watch this other..". Their powerful algorithm's (clusterisation) work for us and we scrap.
+One of the most convincing source is maybe yahoo finance's "People who watch this stock also watch this other..". Their powerful algorithm's (clusterisation) work for us and we scrap their output.
 
 
 <h4> Websites targeted: </h4>
 
 * CNN Business
-* Stocktwits: to monitor nb of watchers for a set of selected stocks
 * Yahoo finance
+* Stocktwits: to monitor nb of watchers for a set of selected stocks
+
 
 
