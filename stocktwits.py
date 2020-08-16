@@ -23,23 +23,20 @@ def find_n_watchers():
             print(f'{stock} found!')
             content = request.content
             soup = BeautifulSoup(content, "html.parser")
-            elem = soup.find("div", class_='st_HebiDD2 st_yCtClNI st_2mehCkH st_3PPn_WF')
+            elem = soup.find("div", class_='st_HebiDD2 st_yCtClNI st_2mehCkH st_3PPn_WF st_jGV698i st_PLa30pM st_2HqScKh')
             elem = str(elem)
-            string_start = "><strong>"
-            string_end = "</strong><br/>Watchers"
-            n_watchers = re.search('%s(.*)%s' % (string_start, string_end), elem).group(1).replace(",",".")
+            string_start = "<strong>"
+            string_end = "</strong>"
+            n_watchers = re.search(f'{string_start}(.*){string_end}', elem).group(1)
             dict_stocks['Symbol'].append(stock)
             dict_stocks['Watchers'].append(n_watchers)
         except:
             print(f"Issue encountered with: {stock}")
 
 
-
 if __name__ == "__main__":
     find_n_watchers()
     DFWatchers = pd.DataFrame.from_dict(dict_stocks)
-
-
 
 
 
