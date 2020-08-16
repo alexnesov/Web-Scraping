@@ -17,7 +17,7 @@ dict_stocks['Watchers'] = []
 
 def find_n_watchers():
     for stock in listOfStocks_A:
-        print(f"Sending a HTTP request to CNN for {stock}. . .")
+        print(f"Sending a HTTP request to stocktwits.com for {stock}. . .")
         try:
             request = requests.get(f"https://stocktwits.com/symbol/{stock}")
             print(f'{stock} found!')
