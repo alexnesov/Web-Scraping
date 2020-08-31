@@ -4,5 +4,4 @@
 int main(void)
 {
   return system("python pytest.py");
-  return system("python pytest.py");
 } 
